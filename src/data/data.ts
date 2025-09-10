@@ -1,0 +1,67 @@
+export const loanData = {
+loanDetails: {
+  loanPlan: "Housing Plan",
+  subLoanPlan: "Housing Flat Loan",
+  loanAmount: "Nu 20,00000",
+  interestRate: "8%",
+  loanTenure: "3 Months",
+  purposeOfLoan: "Housing Commercial Loan",
+},
+personalDetails: {
+  idType: "CID Number",
+  maritalStatus: "Single",
+  idNumber: "100250067",
+  occupancyStatus: "Housing Commercial Loan",
+  idIssueDate: "18-06-1995",
+  mobileNumber: "+97 808205202",
+  idExpiryDate: "18-06-2028",
+  officePhoneNumber: "01-54202222",
+  fullName: "Tshering Dorji",
+  personalEmailAddress: "dorji@45gmail.com",
+  gender: "Male",
+  numberOfDependents: "Housing Commercial Loan",
+  nationality: "Bhutanese",
+  preferredBranch: "Thimpu, Bhutan Bank",
+  dateOfBirth: "18-06-1980",
+},
+addressDetails: {
+  permanent: {
+    location: "32 Street , Thimpu",
+    country: "Bhutan",
+    dzongkhag: "Thimpu",
+    gewog: "Thimpu",
+  },
+  temporary: {
+    location: "Thimpu",
+    country: "Bhutan",
+    dzongkhag: "+97 808205202",
+    gewog: "Thimpu",
+  },
+},
+employmentDetails: {
+  typeOfEmployment: "Full Time",
+  designation: "Web Developer",
+  nameOfEmployer: "Tshering Dorji",
+  joiningDate: "02/05/2015",
+},
+financialDetails: {
+  grossSalary: "Nu 70,000",
+  netIncome: "Nu 7,77,000",
+  existingLiabilities: "Yes",
+},
+assetInformation: {
+  assetIdentified: "Yes",
+  assetCategory: "Land",
+},
+documentsUploaded: {
+  idDocument: "Passport",
+  contractExtensionLetter: "No",
+  passportSizedPhoto: "Yes",
+  signedPdfStatement: "Yes",
+  paySlip: "Yes",
+},
+guarantorDetails: {
+  fullName: "Tshering Dorji",
+  mobileNumber: "+97 808205202",
+},
+};
