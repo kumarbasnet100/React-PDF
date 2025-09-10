@@ -46,17 +46,14 @@ const LoanSummaryPDF = ({ loanData }: { loanData: LoanDataTypes }) => (
 
       {/* Address Details */}
       <DetailsSectionPDF
-        title="Permanent Address"
+        title="Address Details"
         items={[
+          { label: "Permanent Address", value: "" },
           { label: "Location", value: loanData.addressDetails.permanent.location },
           { label: "Country", value: loanData.addressDetails.permanent.country },
           { label: "Dzongkhag/State", value: loanData.addressDetails.permanent.dzongkhag },
           { label: "Gewog/District", value: loanData.addressDetails.permanent.gewog },
-        ]}
-      />
-      <DetailsSectionPDF
-        title="Temporary Address"
-        items={[
+          { label: "Temporary Address", value: "" },
           { label: "Location", value: loanData.addressDetails.temporary.location },
           { label: "Country", value: loanData.addressDetails.temporary.country },
           { label: "Dzongkhag/State", value: loanData.addressDetails.temporary.dzongkhag },
