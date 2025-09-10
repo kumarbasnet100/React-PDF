@@ -3,7 +3,7 @@ import LabelValue from "../atoms/LabelValue";
 interface DetailsSectionProps {
   title: string;
   leftItems: { label: string; value: string }[];
-  rightItems: { label: string; value: string }[];
+  rightItems?: { label: string; value: string }[];
 }
 
 const DetailsSection = ({ title, leftItems, rightItems }: DetailsSectionProps) => {

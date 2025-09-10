@@ -141,7 +141,7 @@ const LoanSummary = () => {
               disabled={loading}
             >
               {loading ? "Preparing..." : "Download Summary"}
-              <Download className="w-4 h-4" />
+              <Download className="size-4" />
             </button>
           )}
         </PDFDownloadLink>
